@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    <form action="/message" method="post">
+        <label>Nachricht:</label>
+        <input type="text" name="message" required>
+        <button type="submit">Senden</button>
+    </form>
+</body>
+</html>
